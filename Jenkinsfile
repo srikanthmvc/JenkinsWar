@@ -2,15 +2,15 @@ node{
 
    /* def tomcatWeb = 'D:\\Auto_deployment\\apache-tomcat-9.0.30\\apache-tomcat-9.0.30\\webapps' */
    
-   def tomcatWeb = 'C:\\Users\\HP\\OneDrive\\Desktop\\DevOps\\apache-tomcat-7.0.94\\webapps'
+   def tomcatWeb = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\webappss'
    
-   /* def tomcatBin = 'D:\\Auto_deployment\\apache-tomcat-9.0.30\\apache-tomcat-9.0.30\\bin' */
+   /* def tomcatBin = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\bin' */
    
-   def tomcatBin = 'C:\\Users\\HP\\OneDrive\\Desktop\\DevOps\\apache-tomcat-7.0.94\\bin'
+   def tomcatBin = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\bin'
    
    def tomcatStatus = ''
    stage('SCM Checkout'){
-     git 'https://github.com/swasa1329/JenkinsWar.git'
+     git 'https://github.com/srikanthmvc/JenkinsWar.git'
    }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
