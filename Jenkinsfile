@@ -2,7 +2,7 @@ node{
 
    /* def tomcatWeb = 'D:\\Auto_deployment\\apache-tomcat-9.0.30\\apache-tomcat-9.0.30\\webapps' */
    
-   def tomcatWeb = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\webappss'
+   def tomcatWeb = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\webapps'
    
    /* def tomcatBin = 'C:\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\bin' */
    
